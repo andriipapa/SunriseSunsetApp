@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sunrise Sunset App</string>
+
+    <!--UI-->
+    <string name="get_by_position">Get info by position</string>
+    <string name="sunrise_sunset_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        Sunrise: %2$s
+        <br/>
+        Sunset: %3$s
+        <br/>
+        Solar noon: %4$s
+        <br/>
+        Day length: %5$s
+    ]]>
+    </string>
+
+    <!--App Message-->
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="play_service_error">Google Play Services is not available.</string>
+
+</resources>
