@@ -2,7 +2,7 @@
     <string name="app_name">Sunrise Sunset App</string>
 
     <!--UI-->
-    <string name="get_by_position">Get info by position</string>
+    <string name="get_by_position">Get info by location</string>
     <string name="sunrise_sunset_details">
     <![CDATA[
         <b>%1$s</b>
