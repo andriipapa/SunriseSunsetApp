@@ -1,7 +1,7 @@
 package app.sunset.sunrise.sunrisesunsetapp;
 
 import android.app.Activity;
-import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 import javax.inject.Inject;
 
@@ -13,7 +13,7 @@ import dagger.android.HasActivityInjector;
  * Created by papaandrii on 09.03.2018.
  */
 
-public class SunriseSunsetApp extends Application implements HasActivityInjector {
+public class SunriseSunsetApp extends MultiDexApplication implements HasActivityInjector {
 
     @Inject
     DispatchingAndroidInjector<Activity> activityDispatchingAndroidInjector;
